@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-template-rows: 7.8vh 22.2vh 96.4vh 21vh;
+}
+
+.formulario { 
+    height: 90vh;
+}
+
+.formulario > input {
+    margin-bottom: 0.2vh; 
+}
+
+.formulario > #termos {
+    top: 7vh;
+    float: left;
+    left: 3vw;
+    width: 2vw;
+    height: 2vh;
+    padding-bottom: 3vh;
+    padding-right: 3vw;
+    box-shadow: none;
+}
+
+.formulario > label {
+    position: relative;
+    top: 9vh;
+    left: 5vw;
+}
+
+.formulario > label > p {
+    width: 21vw;
+    height: 9vh;
+    overflow-wrap: break-word;
+    padding: 0;
+    color: #5B0D80;
+}
+

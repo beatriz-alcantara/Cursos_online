@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  font-family: "Century Gothic";
+  font-size: 1rem;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 7.8vh 51vh 127vh 21vh;
+}
+
+.cabecalho {
+  
+  grid-row: 1;
+}
+
+.banner {
+  grid-row: 2;
+}
+
+.corpo {
+  background-color: white;
+  grid-row: 3;
+}
+
+.rodape {
+  background-color: #5B0D80;
+  grid-row: 4;
+}

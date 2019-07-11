@@ -1,0 +1,35 @@
+  .cabecalho {
+    background-color: #5B0D80;
+  }
+.cabecalho > h2 > a {
+  position: relative;
+  top: 1.5vh;
+  font-weight: lighter;
+  margin-left: 6vw;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.cabecalho > ul {
+  position: relative;
+  float: right;
+  width: 60vw;
+  bottom: 2vh;
+  z-index: 2;
+}
+
+
+
+.cabecalho > ul > li {
+  display: inline-block;
+  margin-left: 3.5vw;
+  margin-right: 3.5vw;
+}
+
+.cabecalho > ul > li > a {
+  color: white;
+  text-decoration: none;
+}

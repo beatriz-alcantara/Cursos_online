@@ -1,0 +1,47 @@
+body {
+    grid-template-rows: 7.8vh 71.2vh 21vh;
+}
+.corpo > .pergunta {
+    position: relative;
+    display: block;
+    box-shadow: 0 2px 4px #4F4F4F;
+    width: 40vw;
+    height: 4vh;
+    top: 15vh;
+    left: 30vw;
+    margin-bottom: 3vh;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.corpo > span > p {
+    text-indent: 2vw;   
+}
+
+.resposta {
+    position: relative;
+    display: none;
+    top: 14vh;
+    left: 29vw;
+    width: 40vw;
+    height: 4vh;
+    margin-bottom: 4vh;
+}
+
+ .resposta > p {
+    position: relative;
+    overflow-wrap: break-word;
+    width: 38vw;
+    left: 2vw;
+    color: #5B0D80;
+    border: solid 1px #5B0D80;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #4F4F4F;
+}
+
+.corpo > h2 {
+    position: relative;
+    left: 17vw;
+    top: 8vh;
+    width: 25vw;
+}
