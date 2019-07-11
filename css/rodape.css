@@ -4,11 +4,24 @@
   float: right;
 }
 
-.rodape > span > img  {
+.rodape > span > a > img  {
   width: 1.5vw;
   height: 2.6vh;
-  margin-right: 5.3vw;
+  /*margin-right: 5.3vw;*/
 }
+
+.rodape > span {
+  z-index: 1;
+}
+
+.rodape > span > a {
+  position: relative;
+  margin-right: 5.3vw;
+  padding-right: 0;
+  height: 2.6vh;
+  z-index: 2;
+}
+
 
 .rodape > div > [type="submit"] {
   background-color: #333333;

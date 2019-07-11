@@ -6,7 +6,11 @@ body {
   grid-row: 2;
 }
 
-.opt-log > span {
+.opt-log > a {
+  text-decoration: none;
+}
+
+.opt-log > a > span {
   position: relative;
   left: 22.5vw;
   padding: 3.2vh 11.7vw 3.2vh 11.7vw;
@@ -14,6 +18,7 @@ body {
   margin-right: 2vw;
   color: white;
   top: 10.3vh;
+ 
 }
 
 #facebook {
