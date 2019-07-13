@@ -1,0 +1,19 @@
+.corpo > p {
+    position: relative;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+    width: 80vw;
+    overflow-wrap: break-word;
+    left: 10vw;
+    top: 1vh;
+}
+
+.corpo > h2 {
+    position: relative;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+    width: 80vw;
+    overflow-wrap: break-word;
+    left: 8vw;
+    top: 1vh;
+}

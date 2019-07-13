@@ -1,0 +1,79 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 27vw);
+  grid-template-rows: repeat(2, 46vh);
+  grid-column-gap: 6.5vw;
+  grid-row-gap: 4.8vh;
+  margin-left: 2.5vw;
+  margin-top: 8vh;
+}
+.curso {
+  background-color: white;
+  border: solid;
+  border-color: #5B0D80;
+}
+
+.JS {
+  right: 5vw;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.HTML {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.CSS {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.JAVA {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.POO {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.curso > img {
+  width: 25vw;
+  height: 27.3vh;
+  margin-top: 1vh;
+  margin-left: 0.75vw;
+  border-radius: 10px;
+}
+
+.curso > h3 {
+  position: relative;
+  top: 2vh;
+  left: 0.75vw;
+  z-index: 1;
+}
+
+.curso > span {
+  position: relative;
+  z-index: 2;
+  right: 0.76vw;
+  bottom: 2vh;
+}
+
+.curso > button {
+  position: relative;
+  border-radius: 10px;
+  letter-spacing: 0.3vw;
+  width: 10.2vw;
+  height: 6.8vh;
+  background-color: #5B0D80;
+  color: white;
+  left: 0.75vw;
+  border: none;
+}
+
+.curso > button:hover {
+  background-color: #F2F2F2;
+  color: #5B0D80;
+}

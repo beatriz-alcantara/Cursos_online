@@ -1,0 +1,65 @@
+.rodape > span {
+  position: relative;
+  top: 10.5vh;
+  float: right;
+}
+
+.rodape > span > a > img  {
+  width: 1.5vw;
+  height: 2.6vh;
+  /*margin-right: 5.3vw;*/
+}
+
+.rodape > span {
+  z-index: 1;
+}
+
+.rodape > span > a {
+  position: relative;
+  margin-right: 5.3vw;
+  padding-right: 0;
+  height: 2.6vh;
+  z-index: 2;
+}
+
+
+.rodape > div > [type="submit"] {
+  background-color: #333333;
+  color: white;
+  letter-spacing: 0.3vw;
+  width: 8vw;
+  height: 5.6vh;
+  border-radius: 10px;
+  border: none;
+}
+
+.rodape > div > input {
+  width: 21vw;
+  height: 5.6vh;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  text-indent: 1vw;
+}
+
+.rodape > div {
+  position: relative;
+  margin-left: 4vw;
+  margin-top: 2.4vh;
+}
+
+.rodape > div > p {
+  width: 25.6vw;
+  height: 6vh;
+  text-align: center;
+  word-wrap: break-word;
+  margin-bottom: 2vh;
+  margin-left: 3vw;
+  color: white;
+}
+
+.rodape > p {
+  color: white;
+  margin-left: 40vw;
+  font-size: 0.7rem;
+}
