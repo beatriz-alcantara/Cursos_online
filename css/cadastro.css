@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-rows: 7.8vh 22.2vh 96.4vh 21vh;
+    grid-template-rows: 7.8vh 22.2vh 96.4vh 25vh;
 }
 
 .formulario { 

@@ -6,7 +6,7 @@
 
 body {
   display: grid;
-  grid-template-rows: 7.8vh 51vh 127vh 21vh;
+  grid-template-rows: 7.8vh 51vh 127vh 25vh;
 }
 
 .cabecalho {
