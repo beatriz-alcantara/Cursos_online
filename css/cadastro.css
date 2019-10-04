@@ -1,10 +1,10 @@
 body {
     display: grid;
-    grid-template-rows: 7.8vh 22.2vh 96.4vh 21vh;
+    grid-template-rows: 7.8vh 22.2vh 120.4vh 21vh;
 }
 
 .formulario { 
-    height: 90vh;
+    height: 110vh;
 }
 
 .formulario > input {

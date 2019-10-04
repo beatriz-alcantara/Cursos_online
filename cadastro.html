@@ -26,18 +26,20 @@
       <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> <span id="google"> Google </span> </a> 
     </div>
     <div class="corpo">
-        <form action="" class="formulario">
+        <form action="php/cadastro.php" method="POST" class="formulario">
             <p id="info"> Preencha com seus dados. </p>
             <p class="entrada"> Nome Completo </p>
-            <input type="text"><br>
+            <input type="text" name="nome"><br>
+            <p class="entrada"> CPF </p>
+            <input type="text" name="cpf"><br>
             <p class="entrada"> E-mail </p>
-            <input type="email"><br>
+            <input type="email" name="email"><br>
             <p class="entrada"> Senha </p>
-            <input type="password"><br>
+            <input type="password" name="senha"><br>
             <p class="entrada"> Confirme a Senha </p>
-            <input type="password"><br>
+            <input type="password" name="confSenha"><br>
             <input type="submit" value="Enviar"><br>
-            <input type="radio" id="termos"> <label for="termos"><p id="termos-politica"> Ao marcar esta opção você concorda com nossas políticas e termos. </p></label>
+            <input type="radio" value="Aceito" name="termos" id="termos"><label for="termos"><p id="termos-politica"> Ao marcar esta opção você concorda com nossas políticas e termos. </p></label>
         </form>
     </div>
     <div class="rodape">
